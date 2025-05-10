@@ -1,0 +1,19 @@
+Idx, Age,Sex,Location,Final Diagnosis,ID_Type,Tissue Classification
+P1,86,F,left thigh,Skin layers,SKN,Normal
+P1,86,F,left thigh,High-grade pleomorphic liposarcoma,PLS,Malignant
+P1,86,F,left thigh,Muscle,MSC,Normal
+P2,70,F,right thigh,Fat,FAT,Normal
+P2,70,F,right thigh,Muscle,MSC,Normal
+P3,66,F,right thigh,High-grade pleomorphic liposarcoma,PLS,Malignant
+P3,66,F,right thigh,Muscle,MSC,Normal
+P3,66,F,right thigh,Skin layers,SKN,Normal
+P3,66,F,right thigh,Fat,FAT,Normal
+P4,37,M,right knee,Skin layers,SKN,Normal
+P4,37,M,right knee,Fat,FAT,Normal
+P4,37,M,right knee,Myxoid liposarcoma,MLS,Malignant
+P5,86,F,Left elbow,High-grade myxofibrosarcoma,HMS,Malignant
+P5,86,F,Left elbow,Skin layers,SKN,Normal
+P6,57,M,Right thigh,Leiomyosarcoma,LEI,Malignant
+P6,57,M,Right tigh,Skin layers,SKN,Normal
+P6,57,M,Right thigh,Muscle,MSC,Normal
+P7,55,M,right upper arm,Leiomyoma,LEM,Benign
