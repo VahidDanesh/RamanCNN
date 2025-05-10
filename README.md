@@ -2,6 +2,16 @@
 
 This repository contains code for analyzing Raman spectroscopy data and classifying different tissue types using deep learning. The project implements a ResNet-based model for distinguishing between various tissue types including Normal, Benign, and Malignant tissues.
 
+## Getting Started
+
+### Clone the Repository
+
+```bash
+# Clone the repository
+git clone https://github.com/VahidDanesh/RamanCNN.git
+cd RamanCNN
+```
+
 ## Installation
 
 You can set up the required dependencies using either conda or uv.
@@ -17,22 +27,25 @@ conda activate raman-cnn
 conda install pytorch torchvision torchaudio
 # Install other dependencies
 conda install pandas numpy matplotlib seaborn scikit-learn
-pip install renishawWiRE
 ```
 
 ### Using uv
 
+It's highly recommended to use `uv`, a fast and efficient Python package installer.
 ```bash
+# Install uv if you don't have it already
+pip install uv
+
 # Create and activate a new virtual environment
 uv venv
-source .venv/bin/activate
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 
-# Install dependencies from pyproject.toml
+# Quick install all dependencies from pyproject.toml
 uv pip install -e .
 
 # Or install dependencies individually
-uv pip install torch torchvision torchaudio 
-uv pip install pandas numpy matplotlib seaborn scikit-learn renishawWiRE
+uv pip install torch torchvision torchaudio
+uv pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ## Usage
