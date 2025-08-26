@@ -72,6 +72,16 @@ uv pip install pandas numpy matplotlib seaborn scikit-learn
 
 If you find this code helpful, please consider citing our paper:
 
-```
-Boroji, M., Danesh, V., Barrera, D., Lee, E., Arauz, P., Farrell, R., Boyce, B., Khan, F., and Kao, I. "Ex-Vivo Raman Spectroscopy and AI-Based Classification of Soft Tissue Sarcomas", PLOS ONE, Public Library of Science, 2025
+```bibtex
+@article{Boroji2025,
+  author    = {Boroji, M. and Danesh, V. and Barrera, D. and Lee, E. and Arauz, P. G. and Farrell, R. F. and others},
+  title     = {Ex-vivo Raman spectroscopy and AI-based classification of soft tissue sarcomas},
+  journal   = {PLOS ONE},
+  year      = {2025},
+  volume    = {20},
+  number    = {8},
+  pages     = {},
+  doi       = {10.1371/journal.pone.0330618},
+  url       = {https://doi.org/10.1371/journal.pone.0330618}
+}
 ```
