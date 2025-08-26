@@ -16,7 +16,7 @@ cd RamanCNN
 
 You can set up the required dependencies using either conda or uv.
 
-### Using conda
+### 1-Using conda
 
 ```bash
 # Create a new conda environment
@@ -29,7 +29,7 @@ conda install pytorch torchvision torchaudio
 conda install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-### Using uv
+### 2-Using uv
 
 It's highly recommended to use `uv`, a fast and efficient Python package installer.
 ```bash
