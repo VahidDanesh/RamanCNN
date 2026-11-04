@@ -50,7 +50,11 @@ uv pip install pandas numpy matplotlib seaborn scikit-learn
 
 ## Usage
 
-1. Extract the dataset in the `/data/dataset/` directory
+1. Download the [RamanSTS dataset](https://doi.org/10.7910/DVN/NGEZPA) from Harvard Dataverse into `data/dataset/` (about 2.4 GB download, 3.2 GB extracted):
+   ```bash
+   python download_data.py
+   ```
+   The script downloads the two archives, checks their MD5 checksums, extracts them and deletes the archives (use `--keep-zips` to keep them). It only needs the Python standard library.
 2. Run the main notebook to train the model:
    ```
    main.ipynb
@@ -67,6 +71,7 @@ uv pip install pandas numpy matplotlib seaborn scikit-learn
 - `models/`: Contains model architectures
 - `utils/`: Helper functions for data processing
 - `config.py`: Configuration parameters for the project
+- `download_data.py`: Downloads the RamanSTS dataset from Harvard Dataverse into `data/dataset/`
 
 ## Citation
 
